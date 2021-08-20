@@ -42,7 +42,7 @@
                     <h5 style="color:lime">Who, what, where, when, why and how?</h5>
                     <p>Our Magic Penny algorithm has increased our profits by 240% since it's inception on May 26, 2021!
                         <br>For more information. please contact our CTO, Michael Stratton @ 330-802-0285</p>
-                    <h1 style="color:gold">It is our goal to make $1,000,000 by December 31,2025</h1>
+                    <h1 style="color:gold">It is our goal to make $1,000,000 by 12/31/2025</h1>
                 </div>
             </div>
         </div>
