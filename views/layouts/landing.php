@@ -26,7 +26,7 @@
 <div class="container-fluid">
     <div class="px-4 pt-5 my-5 text-center">
         <div class="col-lg-6 mx-auto">
-            <h2>DAOMEGA is a startup company soon to offer crypto & blockchain development, consultations & training. </h2>
+            <h2>DAOMEGA is a startup company. We offer crypto & blockchain software development, consultations and training. </h2>
 
         </div>
         <div style="max-height: 50vh;">
