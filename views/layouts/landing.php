@@ -8,7 +8,7 @@
                                     We offer freelance software development, consultations and training">
     <meta name="author" content="Michael A. Stratton">
 
-    <title>Crypto & blockchain development, consultations and training</title>
+    <title>Crypto & blockchain software development, consultations & training</title>
 
     <link rel="canonical" href="http://daomega.com">
     <!-- Bootstrap core CSS -->
@@ -26,7 +26,9 @@
 <div class="container-fluid">
     <div class="px-4 pt-5 my-5 text-center">
         <div class="col-lg-6 mx-auto">
-            <h2>DAOMEGA is a startup company. We offer crypto & blockchain software development, consultations and training. </h2>
+            <h2>Crypto/Blockchain Development, Consultations & Training
+               </h2>
+
 
         </div>
         <div style="max-height: 50vh;">
