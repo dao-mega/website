@@ -8,7 +8,7 @@
                                     We offer freelance software development, consultations and training">
     <meta name="author" content="Michael A. Stratton">
 
-    <title>DAO mega - Crypto & blockchain development, consultations and training</title>
+    <title>Crypto & blockchain development, consultations and training</title>
 
     <link rel="canonical" href="http://daomega.com">
     <!-- Bootstrap core CSS -->
