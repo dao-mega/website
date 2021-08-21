@@ -24,25 +24,27 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div class="px-4 pt-5 my-5 text-center">
+    <div class="px-4 pt-4 my-5 text-center">
         <div class="col-lg-6 mx-auto">
             <h2>Crypto/Blockchain Development, Consultations & Training</h2>
         </div>
 
             <div class="container px-5 mt-5">
                 <div class="row justify-content-md-center">
-                    <div class="col-3">
+                    <div class="col-2">
                         <img src="images/logo-large.png" class="img-fluid mb-4" alt="DAOmega logo" loading="lazy">
                     </div>
                 </div>
             </div>
-        <div class="container px-5 mt-5">
+        <div class="container px-5 mt-4">
             <div class="row justify-content-md-center">
                 <div class="col-10">
                     <h5 style="color:lime">Who, what, where, when, why and how?</h5>
-                    <p>Our Magic Penny algorithm has increased our profits by 240% since it's inception on May 26, 2021!
-                        <br>For more information. please contact our CTO, Michael Stratton @ 330-802-0285</p>
-                    <h1 style="color:gold">It is our goal to make $1,000,000 by 12/31/2025</h1>
+                    <p style="color:white">Our Magic Penny algorithm <em>(created 5/26/21)</em> has increased our profits by 251%
+                        <em>(updated on 8/21/21)</em>
+                        <br>For more information. please contact our CTO, Michael Stratton @ 330-802-0285</span></p>
+                    <h2 style="color:gold">$1,000,000 by end of 2025! Can we do it? </h2>
+                    <p style="color:pink; font-size:11px">6.98% <em>(updated 8/21/21)</em> </p>
                 </div>
             </div>
         </div>
