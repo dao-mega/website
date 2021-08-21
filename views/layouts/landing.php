@@ -44,7 +44,7 @@
                         <em>(updated on 8/21/21)</em>
                         <br>For more information. please contact our CTO, Michael Stratton @ 330-802-0285</span></p>
                     <h2 style="color:gold">$1,000,000 by end of 2025! Can we do it? </h2>
-                    <p style="color:pink; font-size:11px">6.98% <em>(updated 8/21/21)</em> </p>
+                    <p style="color:pink; font-size:11px">7.17% <em>(updated 8/21/21)</em> </p>
                 </div>
             </div>
         </div>

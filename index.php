@@ -1,2 +1,2 @@
 <?php
-include 'views/layouts/landing.php';
+include 'views/layouts/logo.php';
