@@ -29,11 +29,11 @@
 
 
             <div class="row justify-content-md-center">
-                <div class="col-4"></div>
-                <div class="col-4">
+                <div class="col-5"></div>
+                <div class="col-2">
                     <img src="images/logo-large.png" class="img-fluid mt-5 mb-5" alt="DAOmega logo" loading="lazy">
                 </div>
-                <div class="col-4"></div>
+                <div class="col-5"></div>
             </div>
 
 
