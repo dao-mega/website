@@ -20,24 +20,35 @@
             color: #C0C0C0;
         }
 
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:40%;
+        }
     </style>
 </head>
 <body>
-<div class="container">
-    <div class="px-4 pt-4 my-5 text-center row justify-content-md-center">
+<div class="container p-5 mt-5 mb-5">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1>An experiment in futility?</h1>
+        </div>
 
+    </div>
+    <div class="row mt-5">
+        <div class="span4"></div>
+        <div class="span4"><img class="center-block" src="images/logo-v2-large.png" /></div>
+        <div class="span4"></div>
+    </div>
 
-
-            <div class="row justify-content-md-center">
-                <div class="col-5"></div>
-                <div class="col-2">
-                    <img src="images/logo-large.png" class="img-fluid mt-5 mb-5" alt="DAOmega logo" loading="lazy">
-                </div>
-                <div class="col-5"></div>
-            </div>
-
+    <div class="row mt-5">
+        <div class="col-12 text-center">
+            <p>"Nothing leads so straight to futility as literary ambitions without systematic knowledge." ~ H.G. Wells</p>
+        </div>
 
     </div>
 </div>
+
 </body>
 </html>
