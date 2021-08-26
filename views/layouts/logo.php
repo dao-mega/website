@@ -1,8 +1,19 @@
 <?php
     $colors = ["#0f5132", "#002D5A", "#842029", "#212529", "#673ab7", "#ff3d00", "#008ea0", "#607d8b",
                "#292929", "#007cb5"];
+
+    $t1 = "automated algorithms that drastically increase your crypto investment";
+    $t2 = "'Nothing leads so straight to futility as literary ambitions without systematic knowledge.' ~ H.G. Wells";
+    $t3 = "computer science based software development";
+    $t4 = "an evolution from computer science and mathematics into the world of crypto";
+    $t5 = "freelance software/web development, consultations and training";
+    $t6 = "Contact: Michael Stratton, CTO @ daomega. 330-802-0285";
+    $title = [$t1, $t2, $t3, $t4,$t5, $t6];
+
     $rand = random_int(0, 9);
     $rand2 = random_int(1, 9);
+    $rand3 = random_int(0,5);
+
 ?>
 <!doctype html>
 <html>
@@ -27,6 +38,13 @@
             background-size: cover;
             color: #ffffff;
         }
+        h1 {
+            font-weight: 300;
+            font-size: 2.2rem;
+        }
+        h2 {
+            font-size:1.8rem;
+        }
 
         .center-block {
             display: block;
@@ -49,16 +67,18 @@
     </style>
 </head>
 <body>
-<div class="container mt-5 mb-5">
+<div class="container-fluid mt-5 mb-5">
     <div class="row">
         <div class="col-12 text-center">
-            <h1>Algorithms that drastically increase your crypto investment</h1>
+            <h1><?php echo $title[$rand3]; ?></h1>
         </div>
 
     </div>
     <div class="row mt-5">
-
-        <div class="col-12"><img class="center-block" src="images/logo-v2-large.png" /></div>
+        <div class="col-3"></div>
+        <div class="col-6">
+            <img class="center-block" src="images/logo-v2-large.png" />
+        </div>
 
     </div>
 </div>
@@ -95,7 +115,7 @@
             <p>A plate of frozen food.</p>
         </div>
         <div class="col-4 text-center">
-            <h4 class="gold">Our algorithms are beating the market by 51.72% <br><em>Updated: August 26, 2021 at 10:30am EST</em></h4>
+            <h5 class="gold">Our algorithms are beating the market by 51.72% <br>Updated: August 26, 2021 at 10:30am EST</h5>
         </div>
         <div class="col-4 text-center">
             <h4>Banana Split</h4>
