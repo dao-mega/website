@@ -42,6 +42,9 @@
             border-top: solid medium gold;
             border-bottom: solid medium gold;
         }
+        .gold {
+            color:gold;
+        }
     </style>
 </head>
 <body>
@@ -82,7 +85,26 @@
             <h4>Rule of Thirds</h4>
             <p>33% market loss? Not a problem.</p>
         </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-3 text-center">
+        </div>
+        <div class="col-3 text-center">
 
+            <h4>Leftovers</h4>
+            <p>A plate of frozen food.</p>
+        </div>
+        <div class="col-3 text-center">
+            <h4>Banana Split</h4>
+            <p>Eat half now eat half later.</p>
+        </div>
+        <div class="col-3 text-center">
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-12 text-center">
+            <p class="gold">Our algorithms are beating the market by 51.72% <em>Updated: 8/26/21</em></p>
+        </div>
     </div>
 </div>
 
