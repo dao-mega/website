@@ -24,7 +24,7 @@
         body{
             background-color: <?php echo $colors[$rand]; ?>;
             background-image: url("images/bg-0<?php echo $rand2; ?>.png");
-            /*background-size: cover;*/
+            background-size: cover;
             color: #ffffff;
         }
 
