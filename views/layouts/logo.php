@@ -43,7 +43,8 @@
             border-bottom: solid medium gold;
         }
         .gold {
-            color:gold;
+            color:lime;
+            font-weight: 300;
         }
     </style>
 </head>
@@ -87,25 +88,22 @@
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-3 text-center">
-        </div>
-        <div class="col-3 text-center">
+
+        <div class="col-4 text-center">
 
             <h4>Leftovers</h4>
             <p>A plate of frozen food.</p>
         </div>
-        <div class="col-3 text-center">
+        <div class="col-4 text-center">
+            <h4 class="gold">Our algorithms are beating the market by 51.72% <br><em>Updated: August 26, 2021 at 10:30am EST</em></h4>
+        </div>
+        <div class="col-4 text-center">
             <h4>Banana Split</h4>
             <p>Eat half now eat half later.</p>
         </div>
-        <div class="col-3 text-center">
-        </div>
+
     </div>
-    <div class="row mt-3">
-        <div class="col-12 text-center">
-            <p class="gold">Our algorithms are beating the market by 51.72% <em>Updated: 8/26/21</em></p>
-        </div>
-    </div>
+
 </div>
 
 </body>
