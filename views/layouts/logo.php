@@ -1,5 +1,5 @@
 <?php
-    $colors = ["#0f5132", "#002D5A", "#842029", "#212529", "#673ab7", "#ff3d00", "#008ea0", "#607d8b",
+    $colors = ["#0f5132", "#002D5A", "#842029", "#212529", "#673ab7", "#cf3200", "#008ea0", "#607d8b",
                "#292929", "#007cb5"];
 
     $t1 = "automated algorithms that drastically increase your crypto investment";
@@ -13,6 +13,7 @@
     $rand = random_int(0, 9);
     $rand2 = random_int(1, 9);
     $rand3 = random_int(0,5);
+    $rand4 = random_int(3,8);
 
 ?>
 <!doctype html>
@@ -55,13 +56,12 @@
         }
 
         .silver {
-            background-color: black;
-            color:silver;
+            background-color: rgba(0,0,0, 0.<?php echo $rand4; ?>);
             border-top: solid medium gold;
             border-bottom: solid medium gold;
         }
         .gold {
-            color:lime;
+            color:gold;
             font-weight: 300;
         }
     </style>
