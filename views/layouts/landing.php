@@ -4,11 +4,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="daomega.com is a crypto & block chain start up.
-                                    We offer freelance software development, consultations and training">
+    <meta name="description" content="dWe write algorithms that will drastically increase your crypto investment profits.">
     <meta name="author" content="Michael A. Stratton">
 
-    <title>Crypto & blockchain software development, consultations & training</title>
+    <title>We write algorithms that will drastically increase your crypto investment profits.</title>
 
     <link rel="canonical" href="http://daomega.com">
     <!-- Bootstrap core CSS -->
