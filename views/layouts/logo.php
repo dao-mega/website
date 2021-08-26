@@ -25,6 +25,7 @@
     <meta name="description" content="daomega.com is a crypto & block chain start up.
                                     We offer freelance software development, consultations and training">
     <meta name="author" content="Michael A. Stratton">
+    <meta http-equiv="refresh" content="5; URL=https://daomega.com">
 
     <title>Crypto & blockchain software development, consultations & training</title>
 
