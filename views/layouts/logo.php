@@ -7,7 +7,7 @@
     $t3 = "computer science based software development";
     $t4 = "an evolution from computer science and mathematics into the world of crypto";
     $t5 = "freelance software/web development, consultations and training";
-    $t6 = "Contact: Michael Stratton, CTO @ daomega. 330-802-0285";
+    $t6 = "daomega target profit: $1,000,000 by end of 2024";
     $title = [$t1, $t2, $t3, $t4,$t5, $t6];
 
     $rand = random_int(0, 9);
