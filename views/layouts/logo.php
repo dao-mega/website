@@ -8,7 +8,8 @@
     $t4 = "an evolution from computer science and mathematics into the world of crypto";
     $t5 = "freelance software/web development, consultations and training";
     $t6 = "daomega target profit: $1,000,000 by end of 2024";
-    $title = [$t1, $t2, $t3, $t4,$t5, $t6];
+    $t7 = "our financial algorithms are improving, with each generation";
+    $title = [$t1, $t2, $t3, $t4,$t5, $t6, $t7];
 
     $l1 = "logo-v2.png";
     $l2 = "logo-v2-blockchain1.png";
@@ -19,7 +20,7 @@
 
     $rand = random_int(0, 9);
     $rand2 = random_int(1, 9);
-    $rand3 = random_int(0,5);
+    $rand3 = random_int(0,6);
     $rand4 = random_int(3,8);
     $rand5 = random_int(0,17);
 
