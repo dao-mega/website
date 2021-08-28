@@ -10,13 +10,20 @@
     $t6 = "daomega target profit: $1,000,000 by end of 2024";
     $title = [$t1, $t2, $t3, $t4,$t5, $t6];
 
+    $l1 = "logo-v2.png";
+    $l2 = "logo-v2-blockchain1.png";
+    $l3 = "logo-v2-blockchain2.png";
+    $l4 = "logo-v2-blockchain3.png";
+    $l5 = "logo-v2-blockchain4.png";
+    $logo = [$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l2,$l3,$l4,$l5];
+
     $rand = random_int(0, 9);
     $rand2 = random_int(1, 9);
     $rand3 = random_int(0,5);
     $rand4 = random_int(3,8);
-    $rand5 = random_int(0,9);
+    $rand5 = random_int(0,13);
 
-    $logo = ($rand5 == 0 ? "logo-v2-blockchain.png" : "logo-v2.png");
+
 
 ?>
 <!doctype html>
@@ -81,7 +88,7 @@
     <div class="row mt-5">
 
 
-            <img class="center-block" src="images/<?php echo $logo; ?>" />
+            <img class="center-block" src="images/<?php echo $logo[$rand5]; ?>" />
 
 
     </div>
