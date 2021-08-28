@@ -67,7 +67,7 @@
             margin-left: auto;
             margin-right: auto;
             width:500px;
-            padding:20px 40px;
+            padding:30px 40px;
         }
 
         .silver {
@@ -86,7 +86,7 @@
         </div>
 
     </div>
-    <div class="row mt-5">
+    <div class="row mt-3 mb-3">
 
 
             <img class="center-block" src="images/<?php echo $logo[$rand5]; ?>" />
