@@ -125,7 +125,7 @@
 
     </div>
     <div class="row text-center">
-        <h3>Our algorithms are beating the market by 77.66% Updated: August 28, 2021 at 12:50pm EST</h3>
+        <h5>Our algorithms are beating the market by 77.66% Updated: August 28, 2021 at 12:50pm EST</h5>
     </div>
 
 </div>
