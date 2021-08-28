@@ -14,6 +14,9 @@
     $rand2 = random_int(1, 9);
     $rand3 = random_int(0,5);
     $rand4 = random_int(3,8);
+    $rand5 = random_int(0,9);
+
+    $logo = ($rand5 == 0 ? "logo-v2-blockchain.png" : "logo-v2.png");
 
 ?>
 <!doctype html>
@@ -78,7 +81,7 @@
     <div class="row mt-5">
 
 
-            <img class="center-block" src="images/logo-v2.png" />
+            <img class="center-block" src="images/<?php echo $logo; ?>" />
 
 
     </div>
