@@ -25,7 +25,7 @@
     <meta name="description" content="daomega.com is a crypto & block chain start up.
                                     We offer freelance software development, consultations and training">
     <meta name="author" content="Michael A. Stratton">
-    <meta http-equiv="refresh" content="5; URL=https://daomega.com">
+<!--    <meta http-equiv="refresh" content="5; URL=https://daomega.com">-->
 
     <title>Crypto & blockchain software development, consultations & training</title>
 
@@ -47,13 +47,16 @@
         h2 {
             font-size:1.8rem;
         }
+        h3 {
+            font-size: 1.4rem;
+        }
 
         .center-block {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width:35%;
-            padding:20px;
+            width:500px;
+            padding:20px 40px;
         }
 
         .silver {
@@ -76,10 +79,10 @@
 
     </div>
     <div class="row mt-5">
-        <div class="col-3"></div>
-        <div class="col-6">
-            <img class="center-block" src="images/logo-v2-large.png" />
-        </div>
+
+
+            <img class="center-block" src="images/logo-v2.png" />
+
 
     </div>
 </div>
@@ -91,38 +94,41 @@
 
     </div>
     <div class="row mt-3">
-        <div class="col-3 text-center">
+        <div class="col-md-3 text-center">
             <h4>Magic Penny</h4>
             <p>A magic penny that doubles its value.</p>
         </div>
-        <div class="col-3 text-center">
+        <div class="col-md-3 text-center">
             <h4>Magic Pennies</h4>
             <p>5 magic pennies might be better then 1.</p>
         </div>
-        <div class="col-3 text-center">
+        <div class="col-md-3 text-center">
             <h4>Ping Pong</h4>
             <p>Two paddles and a ball - who will win?</p>
         </div>
-        <div class="col-3 text-center">
+        <div class="col-md-3 text-center">
             <h4>Rule of Thirds</h4>
             <p>33% market loss? Not a problem.</p>
         </div>
     </div>
     <div class="row mt-3">
 
-        <div class="col-4 text-center">
+        <div class="col-md-4 text-center">
 
             <h4>Leftovers</h4>
             <p>A plate of frozen food.</p>
         </div>
-        <div class="col-4 text-center">
-            <h5 class="gold">Our algorithms are beating the market by 51.72% <br>Updated: August 26, 2021 at 10:30am EST</h5>
+        <div class="col-md-4 text-center">
+
         </div>
-        <div class="col-4 text-center">
-            <h4>Banana Split</h4>
+        <div class="col-md-4 text-center">
+            <h3>Banana Split</h3>
             <p>Eat half now eat half later.</p>
         </div>
 
+    </div>
+    <div class="row text-center">
+        <h3 class="gold">Our algorithms are beating the market by 51.72% Updated: August 26, 2021 at 10:30am EST</h3>
     </div>
 
 </div>
