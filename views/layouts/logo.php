@@ -13,16 +13,16 @@
 
     $l1 = "logo-v2.png";
     $l2 = "logo-v2-blockchain1.png";
-    $l3 = "logo-v2-blockchain2.png";
+//    $l3 = "logo-v2-blockchain2.png";
     $l4 = "logo-v2-blockchain3.png";
     $l5 = "logo-v2-blockchain4.png";
-    $logo = [$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l2,$l3,$l4,$l5,$l1,$l1,$l1,$l1];
+    $logo = [$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l2,$l4,$l5,$l1,$l1,$l1,$l1];
 
     $rand = random_int(0, 9);
     $rand2 = random_int(1, 9);
     $rand3 = random_int(0,6);
     $rand4 = random_int(3,8);
-    $rand5 = random_int(0,17);
+    $rand5 = random_int(0,16);
 
 
 
