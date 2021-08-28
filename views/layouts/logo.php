@@ -61,13 +61,10 @@
 
         .silver {
             background-color: rgba(0,0,0, 0.<?php echo $rand4; ?>);
-            border-top: solid medium gold;
-            border-bottom: solid medium gold;
+            border-top: double medium white;
+            border-bottom: double medium white;
         }
-        .gold {
-            color:gold;
-            font-weight: 300;
-        }
+
     </style>
 </head>
 <body>
@@ -128,7 +125,7 @@
 
     </div>
     <div class="row text-center">
-        <h3 class="gold">Our algorithms are beating the market by 77.66% Updated: August 28, 2021 at 12:50pm EST</h3>
+        <h3>Our algorithms are beating the market by 77.66% Updated: August 28, 2021 at 12:50pm EST</h3>
     </div>
 
 </div>
