@@ -5,13 +5,17 @@
     $t1 = "automated algorithms that drastically increase your crypto investment";
     $t2 = "people in poverty without internet will be able to buy/sale our tokens";
     $t3 = "Our Mega Seed and Mega Sprout tokens are under development";
-    $t4 = "use case: the need to invest without concern for a loss";
+    $t4 = "the need to invest without concern for a loss";
     $t5 = "Mega Smart Tree: a smart contract that defines rules of our tokens";
     $t6 = "daomega target profit: $1,000,000 by end of 2024";
-    $t7 = "use case: investors have improved control over market value";
-    $t8 = "use case: short term traders need to define worse case scenario";
-    $t9 = "use case: agreed upon changes to smart contract rules";
-    $title = [$t1, $t2, $t3, $t4,$t5, $t6, $t7, $t8, $t9];
+    $t7 = "investors have improved control over market value";
+    $t8 = "short term traders need to define worse case scenario";
+    $t9 = "agreed upon changes to smart contract rules";
+    $t10 = "Mega Seed Token will have a lifecycle of 1 calendar month";
+    $t11 = "investors will bid on the price of the Mega Seed Token";
+    $t12 = "the Mega Seed token grows into a Mega Sprout token";
+    $t13 = "for as little as $1, you can purchase a Mega Sprout Ticket";
+    $title = [$t1, $t2, $t3, $t4,$t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13];
 
     $l1 = "logo-v2.png";
     $l2 = "logo-v2-blockchain1.png";
@@ -22,7 +26,7 @@
 
     $rand = random_int(0, 9);
     $rand2 = random_int(1, 9);
-    $rand_ttl = random_int(0,8);
+    $rand_ttl = random_int(0,12);
     $rand4 = random_int(3,8);
     $rand5 = random_int(0,16);
 
