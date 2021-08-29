@@ -3,13 +3,15 @@
                "#292929", "#007cb5"];
 
     $t1 = "automated algorithms that drastically increase your crypto investment";
-    $t2 = "'Nothing leads so straight to futility as literary ambitions without systematic knowledge.' ~ H.G. Wells";
-    $t3 = "computer science based software development";
-    $t4 = "an evolution from computer science and mathematics into the world of crypto";
-    $t5 = "freelance software/web development, consultations and training";
+    $t2 = "people in poverty without internet will be able to buy/sale our tokens";
+    $t3 = "Our Mega Seed and Mega Sprout tokens are under development";
+    $t4 = "use case: the need to invest without concern for a loss";
+    $t5 = "Mega Smart Tree: a smart contract that defines rules of our tokens";
     $t6 = "daomega target profit: $1,000,000 by end of 2024";
-    $t7 = "our financial algorithms are improving, with each generation";
-    $title = [$t1, $t2, $t3, $t4,$t5, $t6, $t7];
+    $t7 = "use case: investors have improved control over market value";
+    $t8 = "use case: short term traders need to define worse case scenario";
+    $t9 = "use case: agreed upon changes to smart contract rules";
+    $title = [$t1, $t2, $t3, $t4,$t5, $t6, $t7, $t8, $t9];
 
     $l1 = "logo-v2.png";
     $l2 = "logo-v2-blockchain1.png";
@@ -20,7 +22,7 @@
 
     $rand = random_int(0, 9);
     $rand2 = random_int(1, 9);
-    $rand3 = random_int(0,6);
+    $rand_ttl = random_int(0,8);
     $rand4 = random_int(3,8);
     $rand5 = random_int(0,16);
 
@@ -82,7 +84,7 @@
 <div class="container-fluid mt-5 mb-5">
     <div class="row">
         <div class="col-12 text-center">
-            <h1><?php echo $title[$rand3]; ?></h1>
+            <h1><?php echo $title[$rand_ttl]; ?></h1>
         </div>
 
     </div>
