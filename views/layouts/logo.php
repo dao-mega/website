@@ -15,7 +15,8 @@
     $t11 = "investors will bid on the price of the Mega Seed Token";
     $t12 = "the Mega Seed token grows into a Mega Sprout token";
     $t13 = "for as little as $1, you can purchase a Mega Sprout Ticket";
-    $title = [$t1, $t2, $t3, $t4,$t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13];
+    $t14 = "Mega Seed and Mega Sprout will be equity based tokens";
+    $title = [$t1, $t2, $t3, $t4,$t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14];
 
     $l1 = "logo-v2.png";
     $l2 = "logo-v2-blockchain1.png";
@@ -26,7 +27,7 @@
 
     $rand = random_int(0, 9);
     $rand2 = random_int(1, 9);
-    $rand_ttl = random_int(0,12);
+    $rand_ttl = random_int(0,13);
     $rand4 = random_int(3,8);
     $rand5 = random_int(0,16);
 
