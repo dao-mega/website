@@ -42,7 +42,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="daomega.com is a crypto & block chain start up">
     <meta name="author" content="Michael A. Stratton">
-    <meta http-equiv="refresh" content="15; URL=http://localhost:63342/website/index.php?_ijt=dagkj53dmqmk4nsf63th67e427&_ij_reload">
+    <meta http-equiv="refresh" content="15; URL=https://daomega.com">
 
     <title>crypto startup company</title>
 
