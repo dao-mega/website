@@ -1,48 +1,48 @@
 <?php
     $colors = ["#0f5132", "#002D5A", "#842029", "#212529", "#673ab7", "#cf3200", "#008ea0", "#607d8b",
-               "#292929", "#007cb5"];
+               "#292929", "#007cb5", "#ee7752", "#e73c7e", "#23a6d5", "#23d5ab"];
+    $rand_col = random_int(0, 13);
 
     $t1 = "automated algorithms that drastically increase your crypto investment";
-    $t2 = "people in poverty without internet will be able to buy/sale our tokens";
-    $t3 = "Our Mega Seed and Mega Sprout tokens are under development";
-    $t4 = "the need to invest without concern for a loss";
-    $t5 = "Mega Smart Tree: a smart contract that defines rules of our tokens";
+    $t2 = "token access to people in poverty without internet";
+    $t3 = "Mega Seed and Mega Sprout tokens are under development";
+    $t4 = "short term investments without concern for loss";
+    $t5 = "smart contract updates based on semantic versioning";
     $t6 = "daomega target profit: $1,000,000 by end of 2024";
-    $t7 = "investors have improved control over market value";
-    $t8 = "short term traders need to define worse case scenario";
+    $t7 = "improve investors control over market value";
+    $t8 = "short term traders can define worse case scenario";
     $t9 = "agreed upon changes to smart contract rules";
-    $t10 = "Mega Seed Token will have a lifecycle of 1 calendar month";
-    $t11 = "investors will bid on the price of the Mega Seed Token";
-    $t12 = "the Mega Seed token grows into a Mega Sprout token";
-    $t13 = "for as little as $1, you can purchase a Mega Sprout Ticket";
-    $t14 = "Mega Seed and Mega Sprout will be equity based tokens";
-    $title = [$t1, $t2, $t3, $t4,$t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14];
+    $t10 = "worlds first physical crypto currency";
+    $t11 = "investors bids establish the value of the Mega Seed Token";
+    $t12 = "equity based tokens";
+    $t13 = "for as little as $1, you can purchase a token";
+    $title = [$t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13];
+    $rand_ttl = random_int(0,12);
 
     $l1 = "logo-v2.png";
     $l2 = "logo-v2-blockchain1.png";
-//    $l3 = "logo-v2-blockchain2.png";
+    $l3 = "logo-v2-blockchain5.png";
     $l4 = "logo-v2-blockchain3.png";
     $l5 = "logo-v2-blockchain4.png";
-    $logo = [$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l2,$l4,$l5,$l1,$l1,$l1,$l1];
+    $logo = [$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l3,$l2,$l4,$l5,$l1,$l1,$l1];
+    $rand_log = random_int(0,15);
 
-    $rand = random_int(0, 9);
     $rand2 = random_int(1, 9);
-    $rand_ttl = random_int(0,13);
     $rand4 = random_int(3,8);
-    $rand5 = random_int(0,16);
+
 
 
 
 ?>
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="daomega.com is a crypto & block chain start up">
     <meta name="author" content="Michael A. Stratton">
-    <meta http-equiv="refresh" content="5; URL=https://daomega.com">
+    <meta http-equiv="refresh" content="15; URL=http://localhost:63342/website/index.php?_ijt=dagkj53dmqmk4nsf63th67e427&_ij_reload">
 
     <title>crypto startup company</title>
 
@@ -51,8 +51,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <style>
-        body{
-            background-color: <?php echo $colors[$rand]; ?>;
+       body{
+            background-color: <?php echo $colors[$rand_col]; ?>;
             background-image: url("images/bg-0<?php echo $rand2; ?>.png");
             background-size: cover;
             color: #ffffff;
@@ -85,9 +85,12 @@
     </style>
 </head>
 <body>
+<script>
+
+</script>
 <div class="container-fluid mt-5 mb-5">
     <div class="row">
-        <div class="col-12 text-center">
+        <div id="title" class="col-12 text-center">
             <h1><?php echo $title[$rand_ttl]; ?></h1>
         </div>
 
@@ -95,7 +98,7 @@
     <div class="row mt-3 mb-3">
 
 
-            <img class="center-block" src="images/<?php echo $logo[$rand5]; ?>" />
+            <img class="center-block" src="images/<?php echo $logo[$rand_log]; ?>" />
 
 
     </div>
@@ -146,6 +149,8 @@
     </div>
 
 </div>
+
+
 
 </body>
 </html>
