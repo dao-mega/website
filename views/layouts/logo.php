@@ -24,8 +24,9 @@
     $l3 = "logo-v2-blockchain5.png";
     $l4 = "logo-v2-blockchain3.png";
     $l5 = "logo-v2-blockchain4.png";
-    $logo = [$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l3,$l2,$l4,$l5,$l1,$l1,$l1];
-    $rand_log = random_int(0,15);
+    $l6 = "logo-v2-blockchain6.png";
+    $logo = [$l1,$l1,$l1,$l1,$l1,$l1,$l1,$l3,$l2,$l4,$l5,$l6,$l1,$l1];
+    $rand_log = random_int(0,13);
 
     $rand2 = random_int(1, 9);
     $rand4 = random_int(3,8);
