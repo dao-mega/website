@@ -11,7 +11,7 @@
     $t6 = "daomega target profit: $1,000,000 by end of 2024";
     $t7 = "improve investors control over market value";
     $t8 = "short term traders can define worse case scenario";
-    $t9 = "agreed upon changes to smart contract rules";
+    $t9 = "community driven updates to smart contract rules";
     $t10 = "worlds first physical crypto currency";
     $t11 = "investors bids establish the value of the Mega Seed Token";
     $t12 = "equity based tokens";
