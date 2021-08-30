@@ -20,16 +20,17 @@
     $title = [$t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14];
     $rand_ttl = random_int(0,13);
 
-    $l1 = "logo-v2.png";
+    $l1 = "logo-v2-1.png";
     $l2 = "logo-v2-blockchain1.png";
     $l3 = "logo-v2-blockchain5.png";
     $l4 = "logo-v2-blockchain3.png";
     $l5 = "logo-v2-blockchain4.png";
     $l6 = "logo-v2-blockchain6.png";
     $l7 = "logo-v2-blockchain7.png";
-    $logo = [$l1,$l1,$l1,$l1,$l3,$l2,
-             $l4,$l5,$l6,$l7,$l1];
-    $rand_log = random_int(0,10);
+    $l8 = "logo-v2.png";
+    $logo = [$l1,$l1,$l1,$l3,$l2,
+             $l4,$l5,$l6,$l7,$l8];
+    $rand_log = random_int(0,9);
 
     $rand2 = random_int(1, 9);
     $rand4 = random_int(3,8);
