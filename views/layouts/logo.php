@@ -16,8 +16,9 @@
     $t11 = "investors bids establish the value of the Mega Seed Token";
     $t12 = "equity based tokens";
     $t13 = "for as little as $1, you can purchase a token";
-    $title = [$t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13];
-    $rand_ttl = random_int(0,12);
+    $t14 = "Mega Smart Tree";
+    $title = [$t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14];
+    $rand_ttl = random_int(0,13);
 
     $l1 = "logo-v2.png";
     $l2 = "logo-v2-blockchain1.png";
