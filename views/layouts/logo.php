@@ -45,9 +45,9 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="daomega.com is a crypto & block chain start up">
+    <meta name="description" content="We create mathematically validated algorithms that improve returns on your crypto investments">
     <meta name="author" content="Michael A. Stratton">
-    <meta http-equiv="refresh" content="15; URL=https://daomega.com">
+    <!--<meta http-equiv="refresh" content="15; URL=https://daomega.com">-->
 
     <title>crypto startup company</title>
 
@@ -96,7 +96,7 @@
 <div class="container-fluid mt-5 mb-5">
     <div class="row">
         <div id="title" class="col-12 text-center">
-            <h1><?php echo $title[$rand_ttl]; ?></h1>
+            <h1>we craft mathematically validated crypto investment algorithms</h1>
         </div>
 
     </div>
