@@ -45,7 +45,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We create mathematically validated algorithms that improve returns on your crypto investments">
+    <meta name="description" content="we create mathematically validated crypto investment algorithms">
     <meta name="author" content="Michael A. Stratton">
     <!--<meta http-equiv="refresh" content="15; URL=https://daomega.com">-->
 
@@ -56,11 +56,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
        body{
             background-color: <?php echo $colors[$rand_col]; ?>;
             background-image: url("images/bg-0<?php echo $rand2; ?>.png");
             background-size: cover;
             color: #ffffff;
+           margin-bottom: 100px;
         }
         h1 {
             font-weight: 300;
@@ -85,6 +91,17 @@
             background-color: rgba(0,0,0, 0.<?php echo $rand4; ?>);
             border-top: double medium white;
             border-bottom: double medium white;
+        }
+
+        .footer{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            line-height: 100px;
+            background-image: url(images/foot-bg.png);
+            background-repeat-y: no-repeat;
+            background-position-y:5px;
         }
 
     </style>
@@ -140,22 +157,24 @@
             <h4>Leftovers</h4>
             <p>A plate of frozen food.</p>
         </div>
-        <div class="col-md-4 text-center">
 
-        </div>
         <div class="col-md-4 text-center">
             <h3>Banana Split</h3>
             <p>Eat half now eat half later.</p>
         </div>
+        <div class="col-md-4 text-center">
+            <h4>Heaven or Hell</h4>
+            <p>greed fuels hell's eternal flame, heaven's gates are paved in gold</p>
+        </div>
 
     </div>
-    <div class="row text-center">
-        <h5>Our algorithms are beating the market by 77.66% Updated: August 28, 2021 at 12:50pm EST</h5>
-    </div>
+
 
 </div>
 
+<div class="footer text-center">
 
+</div>
 
 </body>
 </html>
