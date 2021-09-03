@@ -59,6 +59,8 @@
         html {
             position: relative;
             min-height: 100%;
+            margin:0;
+            padding:0;
         }
 
        body{
@@ -97,11 +99,11 @@
             position: absolute;
             bottom: 0;
             width: 100%;
-            height: 40px;
+            height: 36px;
             line-height: 100px;
             background-image: url(images/foot-bg.png);
             background-repeat: no-repeat;
-            background-position-y:5px;
+            background-position:center;
         }
 
     </style>
