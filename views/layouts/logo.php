@@ -100,7 +100,7 @@
             height: 40px;
             line-height: 100px;
             background-image: url(images/foot-bg.png);
-            background-repeat-y: no-repeat;
+            background-repeat: no-repeat;
             background-position-y:5px;
         }
 
