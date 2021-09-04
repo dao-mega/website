@@ -64,8 +64,8 @@
         }
 
        body{
-            background-color: #292929;
-            background-image: url("images/bg-06.png");
+            background-color: rgba(41, 41, 41, 0.8);
+            background-image: url("images/bg-10.jpg");
             background-size: cover;
             color: #ffffff;
            margin-bottom: 100px;
