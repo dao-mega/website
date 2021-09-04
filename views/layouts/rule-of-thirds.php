@@ -80,26 +80,6 @@
         h3 {
             font-size: 1.4rem;
         }
-        a {
-            color: #7cdef5;
-        }
-        a:hover {
-            color: #a6ff00;
-        }
-        .center-block {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width:500px;
-            padding:30px 40px;
-        }
-
-        .silver {
-            background-color: rgba(0,0,0, 0.<?php echo $rand4; ?>);
-            border-top: double medium white;
-            border-bottom: double medium white;
-        }
-
 
 
     </style>
@@ -108,67 +88,92 @@
 <script>
 
 </script>
-<div class="container-fluid mt-5 mb-5">
+<div class="container mt-5 mb-5">
     <div class="row">
         <div id="title" class="col-12 text-center">
-            <h1>we craft mathematically validated crypto investment algorithms</h1>
+            <h1>Rule of Thirds - One Day Tests</h1>
+            <h6>Our tests found that this algorithm performs extremely well during huge market losses.
+                It also greatly under performs during average markets. </h6>
+
         </div>
 
     </div>
-    <div class="row mt-3 mb-3">
+    <div class="row mt-5 mb-3">
 
 
-            <img class="center-block" src="images/<?php echo $logo[$rand_log]; ?>" />
+        <table class="table table-striped table-dark">
+            <thead>
+            <tr>
+                <th scope="col">Test Date</th>
+                <th scope="col">Start</th>
+                <th scope="col">End</th>
+                <th scope="col">Change</th>
+                <th scope="col">Name</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>12.01.14</td>
+                <td>$1,000.00</td>
+                <td>$1,011.10</td>
+                <td>+1.11%</td>
+                <td>Bitcoin</td>
+            </tr>
+            <tr>
+                <td>12.01.14</td>
+                <td>$1,000.00</td>
+                <td>$1,000.08</td>
+                <td>+0.008%</td>
+                <td>Thirds-1</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>05.12.21</td>
+                <td>$1,000.00</td>
+                <td>$859.03</td>
+                <td>-14.097%</td>
+                <td>Bitcoin</td>
+            </tr>
+            <tr>
+                <td>05.12.21</td>
+                <td>$1,000.00</td>
+                <td>$990.00</td>
+                <td>-1.00%</td>
+                <td>Thirds-1</td>
+            </tr>
+            <tr>
+                <td>05.12.21</td>
+                <td>$1,000.00</td>
+                <td>$997.42</td>
+                <td>-0.258%</td>
+                <td>Thirds-2</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <p>On May 12, 2021, we ran two separate versions of the algorithm. The Thirds-1 version took on a life of
+            its own and threw all of its funds into the market. The Thirds-2 version, also took on a life of its own and
+            refused to trade. Out of the $1,000 available to it, it only used $80. We can define this algorithm as useful for
+            Low Risk, Low Reward, Long Term traders. It produces financial assurance and protection.</p>
+    </div>
+    <div class="row mt-5 mb-3">
+        <div class="col-5"></div>
+        <div class="col-2">
+            <p class="text-center"><a href="/website"><img height="150px" width="auto"  src="images/logo-v1-icon.png" alt="Logo Version 1 Warriors"></a></p>
+        </div>
+        <div class="col-5"></div>
+
 
 
     </div>
 </div>
-<div class="container-fluid p-3 silver">
-    <div class="row">
-        <div class="col-12 text-center">
-            <h2>Algorithms Under Development</h2>
-        </div>
 
-    </div>
-    <div class="row mt-3">
-        <div class="col-md-3 text-center">
-            <h4>Magic Penny</h4>
-            <p>A magic penny that doubles its value.</p>
-        </div>
-        <div class="col-md-3 text-center">
-            <h4>Magic Pennies</h4>
-            <p>5 magic pennies might be better then 1.</p>
-        </div>
-        <div class="col-md-3 text-center">
-            <h4>Ping Pong</h4>
-            <p>Two paddles and a ball - who will win?</p>
-        </div>
-        <div class="col-md-3 text-center">
-            <h4>Rule of Thirds</h4>
-            <p><a href="thirds.php">33% market loss? Not a problem.</a> </p>
-        </div>
-    </div>
-    <div class="row mt-3">
-
-        <div class="col-md-4 text-center">
-
-            <h4>Leftovers</h4>
-            <p>A plate of frozen food.</p>
-        </div>
-
-        <div class="col-md-4 text-center">
-            <h3>Banana Split</h3>
-            <p>Eat half now eat half later.</p>
-        </div>
-        <div class="col-md-4 text-center">
-            <h4>Heaven or Hell</h4>
-            <p>greed fuels hell's eternal flame, heaven's gates are paved in gold</p>
-        </div>
-
-    </div>
-
-
-</div>
 
 
 </body>
