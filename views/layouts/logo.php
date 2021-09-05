@@ -17,7 +17,7 @@
     $t12 = "equity based tokens";
     $t13 = "for as little as $1, you can purchase a token";
     $t14 = "Mega Smart Tree smart contract is under development";
-    $title = [$t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14];
+    $title = [$t1, $t2, $t3, $t4, $t5, $t6, $t8, $t9, $t10, $t11, $t12, $t13, $t14];
     $rand_ttl = random_int(0,13);
 
     $l1 = "logo-v2-1.png";
@@ -25,7 +25,7 @@
     $l3 = "logo-v2-blockchain5.png";
     $l4 = "logo-v2-blockchain3.png";
     $l5 = "logo-v2-blockchain4.png";
-    $l6 = "gold-dragon.png";
+//    $l6 = "gold-dragon.png";
     $l7 = "mega-smart-tree.png";
     /*$l8 = "logo-v2.png";*/
     $logo = [$l1,$l3,$l2,$l4,
