@@ -65,7 +65,7 @@
 
        body{
             background-color: rgba(41, 41, 41, 0.8);
-            background-image: url("images/bg-10.jpg");
+            background-image: url("images/bg-13.jpg");
             background-size: cover;
             color: #ffffff;
            margin-bottom: 100px;
@@ -133,15 +133,15 @@
     <div class="row mt-3">
         <div class="col-md-3 text-center">
             <h4>Magic Penny</h4>
-            <p>A magic penny that doubles its value.</p>
+            <p>a magic penny that doubles its value</p>
         </div>
         <div class="col-md-3 text-center">
             <h4>Magic Pennies</h4>
-            <p>5 magic pennies might be better then 1.</p>
+            <p>5 magic pennies are better then 1</p>
         </div>
         <div class="col-md-3 text-center">
             <h4>Ping Pong</h4>
-            <p>Two paddles and a ball - who will win?</p>
+            <p>two paddles and a ball</p>
         </div>
         <div class="col-md-3 text-center">
             <h4>Rule of Thirds</h4>
@@ -150,21 +150,23 @@
     </div>
     <div class="row mt-3">
 
-        <div class="col-md-4 text-center">
-
+        <div class="col-md-3 text-center">
             <h4>Leftovers</h4>
-            <p>A plate of frozen food.</p>
+            <p>a plate of frozen food.</p>
         </div>
 
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h3>Banana Split</h3>
-            <p>Eat half now eat half later.</p>
+            <p>eat half now eat half later</p>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h4>Heaven or Hell</h4>
-            <p>greed fuels hell's eternal flame, heaven's gates are paved in gold</p>
+            <p>pits of hell or the heavens above</p>
         </div>
-
+        <div class="col-md-3 text-center">
+            <h4>Dehydration-XY</h4>
+            <p>3 days without water and your dead</p>
+        </div>
     </div>
 
 
