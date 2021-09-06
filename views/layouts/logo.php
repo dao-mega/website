@@ -30,7 +30,7 @@
     /*$l8 = "logo-v2.png";*/
     $logo = [$l1,$l3,$l2,$l4,
              $l5,$l7];
-    $rand_log = random_int(0,6);
+    $rand_log = random_int(0,5);
 
     $rand2 = random_int(1, 9);
     $rand4 = random_int(3,8);
