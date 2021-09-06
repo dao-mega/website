@@ -29,7 +29,7 @@
     $l7 = "mega-smart-tree.png";
     /*$l8 = "logo-v2.png";*/
     $logo = [$l1,$l3,$l2,$l4,
-             $l5,$l6,$l7];
+             $l5,$l7];
     $rand_log = random_int(0,6);
 
     $rand2 = random_int(1, 9);
