@@ -65,10 +65,9 @@
 
        body{
             background-color: rgba(41, 41, 41, 0.8);
-            background-image: url("images/bg-13.jpg");
+            background-image: url("images/bg-14.jpg");
             background-size: cover;
             color: #ffffff;
-           margin-bottom: 100px;
         }
         h1 {
             font-weight: 300;
