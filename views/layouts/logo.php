@@ -167,7 +167,7 @@
 
         <div class="col-md-6 text-center">
             <h3>Million 24</h3>
-            <p>ONE MILLION DOLLARS</p>
+            <p>one million dollars</p>
         </div>
 
     </div>
