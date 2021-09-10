@@ -95,8 +95,6 @@
 
         .silver {
             background-color: rgba(0,0,0, 0.<?php echo $rand4; ?>);
-            border-top: double medium white;
-            border-bottom: double medium white;
         }
 
 
@@ -123,48 +121,56 @@
     </div>
 </div>
 <div class="container-fluid p-3 silver">
-    <div class="row">
-        <div class="col-12 text-center">
-            <h2>Algorithms Under Development</h2>
-        </div>
 
-    </div>
-    <div class="row mt-3">
-        <div class="col-md-3 text-center">
+    <div class="row mt-2">
+        <div class="col-md-4 text-center">
             <h4>Magic Penny</h4>
             <p>a magic penny that doubles its value</p>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h4>Magic Pennies</h4>
             <p>5 magic pennies are better then 1</p>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h4>Ping Pong</h4>
             <p>two paddles and a ball</p>
         </div>
-        <div class="col-md-3 text-center">
+
+    </div>
+    <div class="row mt-2">
+
+        <div class="col-md-4 text-center">
             <h4>Rule of Thirds</h4>
             <p><a href="thirds.php">33% market loss? Not a problem.</a> </p>
         </div>
-    </div>
-    <div class="row mt-3">
-
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h4>Leftovers</h4>
             <p>a plate of frozen food.</p>
         </div>
 
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h3>Banana Split</h3>
             <p>eat half now eat half later</p>
         </div>
-        <div class="col-md-3 text-center">
+
+
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-4 text-center">
             <h4>Heaven or Hell</h4>
             <p>pits of hell or the heavens above</p>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h4>Dehydration-XY</h4>
             <p>3 days without water and your dead</p>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h3>Doug Pound</h3>
+            <p>the more we win the louder we bark</p>
+        </div>
+
+
         </div>
     </div>
 
