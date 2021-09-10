@@ -105,7 +105,7 @@
 <script>
 
 </script>
-<div class="container-fluid mt-5 mb-5">
+<div class="container-fluid mt-4 mb-4">
     <div class="row">
         <div id="title" class="col-12 text-center">
             <h1>we craft mathematically validated crypto investment algorithms</h1>
