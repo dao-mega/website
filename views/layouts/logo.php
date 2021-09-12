@@ -150,30 +150,15 @@
             <p>eat half now eat half later</p>
         </div>
         <div class="col-md-3 text-center">
-            <h4>Heaven or Hell</h4>
-            <p>pits of hell or the heavens above</p>
-        </div>
-        <div class="col-md-3 text-center">
             <h4>Dehydration-XY</h4>
             <p>3 days without water and your dead</p>
         </div>
-    </div>
-    <div class="row mt-2">
-
-        <div class="col-md-6 text-center">
-            <h3>Doug Pound</h3>
-            <p>the more we win the louder we bark</p>
-        </div>
-
-        <div class="col-md-6 text-center">
+        <div class="col-md-3 text-center">
             <h3>Million 24</h3>
             <p>one million dollars</p>
         </div>
-
     </div>
-
-
-</div>
+ </div>
 
 
 </body>
