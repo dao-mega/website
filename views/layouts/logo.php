@@ -35,7 +35,9 @@
     $rand2 = random_int(1, 9);
     $rand4 = random_int(3,8);
 
-
+//    $rand = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f');
+    $color = 'rgba(' . random_int(0,255) . ',' . random_int(0,255) . ',' . random_int(0,255) . ',' . '0.3' . ')';
+    $bg = $color;
 
 
 ?>
@@ -61,11 +63,12 @@
             min-height: 100%;
             margin:0;
             padding:0;
+            border: rgba(255,255,255,0.1) solid thin;
         }
 
        body{
             background-color: rgba(41, 41, 41, 0.8);
-            background-image: url("images/bg-14.jpg");
+            background-image: url("images/bg-16.jpg");
             background-size: cover;
             color: #ffffff;
         }
@@ -94,7 +97,9 @@
         }
 
         .silver {
-            background-color: rgba(0,0,0, 0.<?php echo $rand4; ?>);
+            background-color: <?php echo $bg; ?>;
+            border-top: #fff thin solid;
+            border-bottom: #fff thin solid;
         }
 
 
@@ -102,10 +107,8 @@
     </style>
 </head>
 <body>
-<script>
 
-</script>
-<div class="container-fluid mt-4 mb-4">
+<div class="container-fluid mt-5 mb-4">
     <div class="row">
         <div id="title" class="col-12 text-center">
             <h1>we craft mathematically validated crypto investment algorithms</h1>
@@ -120,7 +123,7 @@
 
     </div>
 </div>
-<div class="container-fluid p-3 silver">
+<div class="container-fluid pt-4 pb-4 silver">
 
     <div class="row mt-2">
         <div class="col-md-3 text-center">
