@@ -115,7 +115,7 @@
     <div class="row mt-3 mb-3">
 
 
-            <img class="center-block" src="images/<?php echo $logo[$rand_log]; ?>" />
+            <img class="center-block" src="images/logo-v2-1.png" />
 
 
     </div>
