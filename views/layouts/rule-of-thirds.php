@@ -54,35 +54,8 @@
     <link rel="canonical" href="http://daomega.com">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/cash.css">
 
-    <style>
-        html {
-            position: relative;
-            min-height: 100%;
-            margin:0;
-            padding:0;
-        }
-
-       body{
-            background-color: #292929;
-            background-image: url("images/bg-16.jpg");
-            background-size: cover;
-            color: #ffffff;
-           margin-bottom: 100px;
-        }
-        h1 {
-            font-weight: 300;
-            font-size: 2.2rem;
-        }
-        h2 {
-            font-size:1.8rem;
-        }
-        h3 {
-            font-size: 1.4rem;
-        }
-
-
-    </style>
 </head>
 <body>
 <script>

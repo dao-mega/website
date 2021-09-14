@@ -56,53 +56,13 @@
     <link rel="canonical" href="http://daomega.com">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style/cash.css">
     <style>
-        html {
-            position: relative;
-            min-height: 100%;
-            margin:0;
-            padding:0;
-            border: rgba(255,255,255,0.1) solid thin;
-        }
-
-       body{
-            background-color: rgba(41, 41, 41, 0.8);
-            background-image: url("images/bg-16.jpg");
-            background-size: cover;
-            color: #ffffff;
-        }
-        h1 {
-            font-weight: 300;
-            font-size: 2.2rem;
-        }
-        h2 {
-            font-size:1.8rem;
-        }
-        h3 {
-            font-size: 1.4rem;
-        }
-        a {
-            color: #7cdef5;
-        }
-        a:hover {
-            color: #a6ff00;
-        }
-        .center-block {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width:500px;
-            padding:30px 40px;
-        }
-
         .silver {
             background-color: <?php echo $bg; ?>;
             border-top: #fff thin solid;
             border-bottom: #fff thin solid;
         }
-
-
 
     </style>
 </head>
@@ -158,7 +118,7 @@
         </div>
         <div class="col-md-3 text-center">
             <h3>Million 24</h3>
-            <p>one million dollars</p>
+            <p><a href="millionaire.php">one million dollars</a></p>
         </div>
     </div>
     <div class="row mt-2">
