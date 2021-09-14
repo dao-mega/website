@@ -161,6 +161,14 @@
             <p>one million dollars</p>
         </div>
     </div>
+    <div class="row mt-2">
+        <div class="col-md-4 text-center"></div>
+        <div class="col-md-4 text-center">
+            <h4>Patience My Friend</h4>
+            <p><a href="patience.php">Your friend's arrival has been delayed</a></p>
+        </div>
+        <div class="col-md-4 text-center"></div>
+    </div>
  </div>
 
 

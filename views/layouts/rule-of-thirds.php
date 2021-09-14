@@ -65,7 +65,7 @@
 
        body{
             background-color: #292929;
-            background-image: url("images/bg-06.png");
+            background-image: url("images/bg-16.jpg");
             background-size: cover;
             color: #ffffff;
            margin-bottom: 100px;
