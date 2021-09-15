@@ -46,8 +46,8 @@
         <div class="col-md-3"></div>
     </div>
     <div class="row mt-1 mb-3">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
             <h3>We Believe in Kindness as a Virtue</h3>
             <p>If your intent in working with us is deceitful, we welcome you to do as such. It is through your punk
             slapping that we sustain our power and charisma; therefore, we turn karma upside down on its head. </p>
