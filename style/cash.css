@@ -40,3 +40,10 @@ a:hover {
     padding:30px 40px;
 }
 
+.karma {
+    font-size: 11px;
+    font-weight: 600;
+    position:fixed;
+    bottom:18px;
+    left: 50%;
+}
