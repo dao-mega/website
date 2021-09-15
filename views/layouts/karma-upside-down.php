@@ -35,8 +35,8 @@
 
     </div>
     <div class="row mt-3 mb-1">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
             <p class="text-center">
                 <img class="img-fluid" src="images/jesus.jpg" alt="Millionaire"> <br>
                 <a href="https://pixabay.com/users/michaelgaida-652234/" target="_blank"><small>Image courtesy of Michael Gaida</small></a>
@@ -46,8 +46,8 @@
         <div class="col-md-3"></div>
     </div>
     <div class="row mt-1 mb-3">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
             <h3>We Believe in Kindness as a Virtue</h3>
             <p>If your intent in working with us is deceitful, we welcome you to do as such. It is through your punk
             slapping that we sustain our power and charisma; therefore, we turn karma upside down on its head. </p>
