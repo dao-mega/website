@@ -20,6 +20,7 @@
        }
 
     </style>
+    <?php include_once 'views/partials/google-analytics.php'; ?>
 </head>
 <body>
 <div class="container-fluid">
