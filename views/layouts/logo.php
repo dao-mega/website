@@ -131,9 +131,7 @@
         <div class="col-md-4 text-center"></div>
     </div>
  </div>
-<div class="karma">
-    <small><a href="karma.php">karma</a></small>
-</div>
+
 
 
 </body>
