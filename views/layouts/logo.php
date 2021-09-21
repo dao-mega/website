@@ -72,7 +72,7 @@
 <div class="container mt-5 mb-4">
     <div class="row">
         <div id="title" class="col-12 text-center">
-            <h2>We automate your process for investing in crypto currencies by carefully aligning your investment
+            <h2>We automate the process for investing in crypto currencies by carefully aligning an investors
                 experience & strategy with mathematically validated, autonomous algorithms(bots).</h2>
         </div>
 
@@ -115,22 +115,15 @@
             <p>eat half now eat half later</p>
         </div>
         <div class="col-md-3 text-center">
-            <h4>Dehydration-XY</h4>
-            <p>3 days without water and your dead</p>
-        </div>
-        <div class="col-md-3 text-center">
             <h3>Million 24</h3>
             <p><a href="millionaire.php">one million dollars</a></p>
         </div>
-    </div>
-    <div class="row mt-2">
-        <div class="col-md-4 text-center"></div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h4>Patience My Friend</h4>
             <p><a href="patience.php">Your friend's arrival has been delayed</a></p>
         </div>
-        <div class="col-md-4 text-center"></div>
     </div>
+
  </div>
 
 
