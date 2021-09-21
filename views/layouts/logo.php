@@ -69,11 +69,11 @@
 </head>
 <body>
 
-<div class="container-fluid mt-5 mb-4">
+<div class="container mt-5 mb-4">
     <div class="row">
         <div id="title" class="col-12 text-center">
-            <h1>We improve crypto investors financial outlook by aligning an investors experience and
-                strategy with mathematically validated, autonomous algorithms(bots).</h1>
+            <h2>We automate your process for investing in crypto currencies by carefully aligning your investment
+                experience & strategy with mathematically validated, autonomous algorithms(bots).</h2>
         </div>
 
     </div>
