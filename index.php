@@ -1,2 +1,2 @@
 <?php
-include 'views/layouts/logo.php';
+include_once 'views/layouts/logo.php';

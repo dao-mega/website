@@ -1,2 +1,2 @@
 <?php
-include 'views/layouts/rule-of-thirds.php';
+include_once 'views/layouts/rule-of-thirds.php';

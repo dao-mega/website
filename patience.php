@@ -1,2 +1,2 @@
 <?php
-include 'views/layouts/patience-my-friend.php';
+include_once 'views/layouts/patience-my-friend.php';
