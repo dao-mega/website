@@ -72,7 +72,8 @@
 <div class="container-fluid mt-5 mb-4">
     <div class="row">
         <div id="title" class="col-12 text-center">
-            <h1>we craft mathematically validated crypto investment algorithms</h1>
+            <h1>We improve crypto investors financial outlook by aligning an investors experience and
+                strategy with mathematically validated, autonomous algorithms(bots).</h1>
         </div>
 
     </div>
