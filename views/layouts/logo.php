@@ -90,7 +90,7 @@
     <div class="row mt-2">
         <div class="col-md-3 text-center">
             <h4>Magic Penny</h4>
-            <p>a magic penny that doubles its value</p>
+            <p><a href="compound-interest.php">a magic penny that doubles its value</a></p>
         </div>
         <div class="col-md-3 text-center">
             <h4>Magic Pennies</h4>
