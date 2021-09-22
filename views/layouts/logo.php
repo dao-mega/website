@@ -39,6 +39,7 @@
     $color = 'rgba(' . random_int(0,255) . ',' . random_int(0,255) . ',' . random_int(0,255) . ',' . '0.3' . ')';
     $bg = $color;
 
+    $num_birds = random_int(1, 2);
 
 ?>
 <!doctype html>
@@ -139,20 +140,20 @@
 <script>
     VANTA.BIRDS({
         el: "#birds",
-        mouseControls: false,
-        touchControls: false,
-        gyroControls: true,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
         minHeight: 200.00,
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
         color1: 0x329303,
         color2: 0xff1e,
-        birdSize: 2.0,
+        birdSize: 2.20,
         wingSpan: 32.00,
         speedLimit: 2.00,
         cohesion: 73.00,
-        quantity: 1.00,
+        quantity: <?php echo $num_birds . ".00"; ?>,
         backgroundAlpha: 0.5
     })
 </script>
