@@ -1,6 +1,6 @@
 <?php
 
-echo '<div class="row mt-5 mb-3">
+echo '<div class="row mt-5">
         <div class="col-5"></div>
         <div class="col-2">
             <p class="text-center"><a href="index.php"><img height="150px" width="auto"  

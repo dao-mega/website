@@ -22,10 +22,8 @@
     <?php include_once 'views/partials/google-analytics.php'; ?>
 </head>
 <body>
-<script>
 
-</script>
-<div class="container mt-5 mb-5">
+<div class="container mt-5">
     <div class="row">
         <div id="title" class="col-12 text-center">
             <h1>Magic Penny</h1>
@@ -34,17 +32,23 @@
         </div>
 
     </div>
-    <div class="row mt-3 mb-1">
+    <div class="row mt-3 mb-4">
         <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <p class="text-center">
-                <img class="img-fluid" src="https://cdn.pixabay.com/photo/2014/11/01/22/33/gold-513062_960_720.jpg" alt="Millionaire">
-            </p>
-
+        <div class="col-md-6">
+            <code><strong>pseudo</strong> <br>
+              double $n; $x; $y; // user defined<br>
+              double $start; // start price <br>
+              double $current; // current price <br>
+              double $sale = $start * $x;<br>
+              double $buy = $start * $y;<br>
+              bool $isBuying; // boolean to invoke sale or buy <br>
+              if($sale<=$current && $isBuying==0){function sale();}<br>
+              if($buy>=$current && $isBuying==1){function buy();}
+            </code>
         </div>
 
     </div>
-    <div class="row mt-1 mb-3">
+    <div class="row mt-1">
         <div class="col-md-1"></div>
         <div class="col-md-10">
 
