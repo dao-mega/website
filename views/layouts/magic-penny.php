@@ -38,11 +38,11 @@
         <div class="col-md-4"></div>
         <div class="col-md-4">
             <p class="text-center">
-                <img class="img-fluid" src="images/penny.jpg" alt="Millionaire">
+                <img class="img-fluid" src="https://cdn.pixabay.com/photo/2014/11/01/22/33/gold-513062_960_720.jpg" alt="Millionaire">
             </p>
 
         </div>
-        <div class="col-md-4"></div>
+
     </div>
     <div class="row mt-1 mb-3">
         <div class="col-md-1"></div>

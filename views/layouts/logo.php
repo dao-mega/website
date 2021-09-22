@@ -56,6 +56,12 @@
     <link rel="canonical" href="http://daomega.com">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- vanta.js birds -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
+
     <link rel="stylesheet" href="style/cash.css">
     <style>
         .silver {
@@ -69,7 +75,10 @@
 </head>
 <body>
 
-<div class="container mt-5 mb-4">
+<div id="birds">
+
+
+<div class="container pt-4 mb-4">
     <div class="row">
         <div id="title" class="col-12 text-center">
             <h2>We automate the process for investing in crypto currencies by carefully aligning your investment
@@ -85,7 +94,7 @@
 
     </div>
 </div>
-<div class="container-fluid pt-4 pb-4 silver">
+<div class="container-fluid pt-4 silver">
 
     <div class="row mt-2">
         <div class="col-md-3 text-center">
@@ -126,7 +135,26 @@
 
  </div>
 
-
-
+</div>
+<script>
+    VANTA.BIRDS({
+        el: "#birds",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color1: 0x329303,
+        color2: 0xff1e,
+        birdSize: 2.0,
+        wingSpan: 32.00,
+        speedLimit: 2.00,
+        cohesion: 73.00,
+        quantity: 1.00,
+        backgroundAlpha: 0.5
+    })
+</script>
 </body>
 </html>
