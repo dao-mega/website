@@ -35,7 +35,7 @@
     <div class="row mt-3 mb-4">
         <div class="col-md-4"></div>
         <div class="col-md-6">
-            <code><strong>pseudo</strong> <br>
+            <code><strong>/* pseudo for basic mathematical validation */</strong> <br>
               double $n; $x; $y; // user defined<br>
               double $start; // start price <br>
               double $current; // current price <br>
