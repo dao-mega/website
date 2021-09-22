@@ -72,7 +72,7 @@
 <div class="container mt-5 mb-4">
     <div class="row">
         <div id="title" class="col-12 text-center">
-            <h2>We automate the process for investing in crypto currencies by carefully aligning investors
+            <h2>We automate the process for investing in crypto currencies by carefully aligning your investment
                 experience & strategy with mathematically validated, autonomous algorithms(bots).</h2>
         </div>
 
