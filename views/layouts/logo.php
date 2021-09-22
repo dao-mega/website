@@ -39,8 +39,6 @@
     $color = 'rgba(' . random_int(0,255) . ',' . random_int(0,255) . ',' . random_int(0,255) . ',' . '0.3' . ')';
     $bg = $color;
 
-    $num_birds = random_int(1, 2);
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -74,9 +72,9 @@
     </style>
    <?php include_once 'views/partials/google-analytics.php'; ?>
 </head>
-<body>
+<body id="birds">
 
-<div id="birds">
+
 
 
 <div class="container pt-4 mb-4">
@@ -116,27 +114,24 @@
         </div>
     </div>
     <div class="row mt-2">
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h4>Leftovers</h4>
             <p>a plate of frozen food.</p>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h3>Banana Split</h3>
             <p>eat half now eat half later</p>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h3>Million 24</h3>
             <p><a href="millionaire.php">one million dollars</a></p>
         </div>
-        <div class="col-md-3 text-center">
-            <h4>Patience My Friend</h4>
-            <p><a href="patience.php">Your friend's arrival has been delayed</a></p>
-        </div>
+
     </div>
 
  </div>
 
-</div>
+
 <script>
     VANTA.BIRDS({
         el: "#birds",
@@ -145,16 +140,12 @@
         gyroControls: false,
         minHeight: 200.00,
         minWidth: 200.00,
-        scale: 1.00,
         scaleMobile: 1.00,
-        color1: 0x329303,
-        color2: 0xff1e,
-        birdSize: 1.00,
-        wingSpan: 32.00,
+        color1: 0xff00,
+        color2: 0xff9c00,
         speedLimit: 2.00,
-        cohesion: 73.00,
-        quantity: <?php echo $num_birds . ".00"; ?>,
-        backgroundAlpha: 0.5
+        backgroundAlpha: 0.5,
+        quantity: 2.00
     })
 </script>
 </body>
