@@ -149,7 +149,7 @@
         scaleMobile: 1.00,
         color1: 0x329303,
         color2: 0xff1e,
-        birdSize: 2.20,
+        birdSize: 1.00,
         wingSpan: 32.00,
         speedLimit: 2.00,
         cohesion: 73.00,
