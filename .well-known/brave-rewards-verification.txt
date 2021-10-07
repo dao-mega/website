@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: daomega.com
+Token: 554f0dcaa619664a87e96309c288c726562762417a2ec0a17e3edf951f340f2a
