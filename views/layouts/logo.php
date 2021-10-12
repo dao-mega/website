@@ -74,14 +74,12 @@
 </head>
 <body id="birds">
 
-
-
-
 <div class="container pt-4 mb-4">
     <div class="row">
         <div id="title" class="col-12 text-center">
-            <h2>We automate the process for investing in crypto currencies by carefully aligning your investment
-                experience & strategy with mathematically validated, autonomous algorithms(bots).</h2>
+            <h1><a class="title-link" href="our-mission.php">simplify, automate and improve your crypto investment strategies</a></h1>
+            <!--<h2>We simplify the process for investing in crypto currencies by carefully aligning your investment
+                experience & strategy with mathematically validated, autonomous algorithms(bots).</h2>-->
         </div>
 
     </div>
