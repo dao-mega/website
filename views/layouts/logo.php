@@ -114,17 +114,21 @@
         </div>
     </div>
     <div class="row mt-2">
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h4>Leftovers</h4>
             <p>a plate of frozen food.</p>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h3>Banana Split</h3>
             <p>eat half now eat half later</p>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h3>Million 24</h3>
             <p><a href="millionaire.php">one million dollars</a></p>
+        </div>
+        <div class="col-md-3 text-center">
+            <h3>Plain Jane</h3>
+            <p><a href="dollar-cost-averaging.php">dollar cost averaging</a></p>
         </div>
 
     </div>
