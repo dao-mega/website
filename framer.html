@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+    integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
+    crossorigin="anonymous" />
+    <meta charSet="UTF-8" />
+    <style>
+      .btn-sm {
+        height: 40px;
+        line-height: 40px;
+        padding: 0 15px;
+      }
+      .btn-lg {
+        height: 60px;
+        line-height: 60px;
+        padding: 0 40px;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .btn-xl {
+        height: 70px;
+        line-height: 70px;
+        padding: 0 45px;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .icon-sm {
+        font-size: 10px;
+      }
+      .icon-lg {
+        font-size: 20px;
+      }
+      .icon-xl {
+        font-size: 50px;
+      }
+
+      .image-sm {
+        width: 50px;
+      }
+      .image-lg {
+        width: 100px;
+      }
+      .image-xl {
+        width: 150px;
+      }
+
+    .animation-ping{
+      animation-name: ping;
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+      @keyframes ping {
+        75%, 100% {
+          transform: scale(2);
+          opacity: 0;
+        }
+      }
+    }
+
+    .animation-spin{
+      animation-name: spin;
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    }
+    .animation-fadein{
+      animation-name: fadein;
+      @keyframes fadein {
+        0% {
+          opacity: 0;
+          transform: translateX(25%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0%);
+        }
+
+      }
+    }
+
+    .animation-pulse{
+      animation-name: pulse;
+      @keyframes pulse {
+        0%, 100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: .5;
+        }
+      }
+    }
+
+    .animation-bounce{
+      animation-name: bounce;
+      @keyframes bounce {
+        0%, 100% {
+          transform: translateY(-25%);
+          animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+          transform: translateY(0);
+          animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+      }
+    }
+    .duration-1{
+      animation-duration: 1s;
+    }
+    .duration-2{
+      animation-duration: 2s;
+    }
+    .duration-3{
+      animation-duration: 3s;
+    }
+    .duration-4{
+      animation-duration: 4s;
+    }
+    .duration-5{
+      animation-duration: 5s;
+    }
+    .delay-1{
+      animation-delay: 1s;
+    }
+    .delay-2{
+      animation-delay: 2s;
+    }
+    .delay-3{
+      animation-delay: 3s;
+    }
+    .delay-4{
+      animation-delay: 4s;
+    }
+    .delay-5{
+      animation-delay: 5s;
+    }
+    .repeat-1{
+      animation-iteration-count: 1;
+    }
+    .repeat-2{
+      animation-iteration-count: 2;
+    }
+    .repeat-3{
+      animation-iteration-count: 3;
+    }
+    .repeat-4{
+      animation-iteration-count: 4;
+    }
+    .repeat-5{
+      animation-iteration-count: 5;
+    }
+    </style>
+</head>
+<body>
+      <div class="block-container w-full bg-top bg-cover -mt-0 -mr-0 -mb-0 -ml-0 pt-0 pr-0 pb-0 pl-0">
+<div class="bg-white max-w-screen-2xl flex-col md:flex-row md:justify-between flex w-full bg-top bg-cover
+justify-center mt-auto mr-auto mb-auto ml-auto pt-4 pr-8 pb-4 pl-8">
+<div class="bg-white flex bg-top bg-cover flex-row justify-between items-center mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0
+pl-0">
+<a target="_blank" href="#">
+<div class="undefined self-undefined border-undefined float-undefined font-semibold text-base h-undefined
+tracking-undefined leading-undefined mt-0 mr-6 mb-0 ml-0 opacity-undefined order-undefined overflow-undefined pt-0
+pr-0 pb-0 pl-0 text-center w-undefined break-undefined bg-undefined text-gray-600 shadow-undefined cursor-pointer"
+style="font-family: Raleway;">Product</div>
+</a>
+<a target="_blank" href="#">
+<div class="undefined self-undefined border-undefined float-undefined font-semibold text-base h-undefined
+tracking-undefined leading-undefined mt-0 mr-6 mb-0 ml-0 opacity-undefined order-undefined overflow-undefined pt-0
+pr-0 pb-0 pl-0 text-center w-undefined break-undefined bg-undefined text-gray-600 shadow-undefined cursor-pointer"
+style="font-family: Raleway;">Features</div>
+</a>
+<a target="_blank" href="#">
+<div class="undefined self-undefined border-undefined float-undefined font-semibold text-lg h-undefined
+tracking-undefined leading-undefined mt-0 mr-0 mb-0 ml-0 opacity-undefined order-undefined overflow-undefined pt-0
+pr-0 pb-0 pl-0 text-center w-undefined break-undefined bg-undefined text-gray-600 shadow-undefined cursor-pointer"
+style="font-family: Raleway;">Pricing</div>
+</a>
+</div>
+<div class="bg-white order-first md:order-none flex bg-top bg-cover flex-row justify-center items-center mt-0 mr-0
+mb-0 ml-0 pt-0 pr-0 pb-0 pl-0"><img
+src="https://res.cloudinary.com/macxenon/image/upload/v1626954201/logo_id1zsg.png" class="w-16 mt-0 mr-0 mb-0 ml-0
+pt-0 pr-0 pb-0 pl-0"></div>
+<div class="flex justify-end items-center"><button class="h-9 w-24 rounded-lg mt-0 mr-6 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0
+text-center text-base font-normal flex items-center justify-center border-2 bg-white text-gray-600 border-white"
+style="font-family: Arial;">Sign in</button><button class="h-9 w-24 rounded-lg hover:bg-blue-900
+hover:border-blue-900 mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-center text-base font-normal flex items-center
+justify-center border-2 bg-blue-700 text-white border-blue-700" style="font-family: Arial;">Sign up</button></div>
+</div>
+</div>
+<div class="block-container bg-top bg-cover -mt-0 -mr-0 -mb-0 -ml-0 pt-0 pr-0 pb-0 pl-0">
+<div class="bg-white max-w-screen-2xl flex bg-top bg-cover flex-col items-center mt-0 mr-auto mb-0 ml-auto pt-16 pr-4
+pb-16 pl-4 relative lg:flex-row lg:py-32 xl:py-48 md:px-8">
+<div class="flex w-full h-full bg-top bg-cover justify-center items-center mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0
+overflow-hidden lg:w-1/2 lg:justify-end lg:bottom-0 lg:left-0 lg:items-center"><img
+src="https://i.imgur.com/DBK8aAb.png" class="h-auto w-full mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 object-contain
+object-top lg:w-auto lg:h-full"></div>
+<div class="flex bg-top bg-cover justify-end mt-0 mr-auto mb-0 ml-auto pt-0 pr-0 pb-0 pl-0 relative max-w-xl xl:pr-32
+lg:max-w-screen-xl">
+<div class="bg-top bg-cover mt-0 mr-0 mb-16 ml-0 pt-0 pr-0 pb-0 pl-0 lg:pr-5 lg:max-w-lg lg:mb-0">
+<div class="bg-top bg-cover mt-0 mr-0 mb-6 ml-0 pt-0 pr-0 pb-0 pl-0 max-w-xl">
+<p class="inline-block font-semibold text-xs tracking-wider mt-0 mr-0 mb-4 ml-0 pt-1 pr-3 pb-1 pl-3 uppercase
+bg-pink-500 text-pink-200 rounded-2xl">Brand new</p>
+<div class="text-gray-900 bg-top bg-cover mt-0 mr-0 mb-6 ml-0 pt-0 pr-0 pb-0 pl-0 max-w-lg sm:text-4xl
+sm:leading-none">
+<p class="font-bold text-3xl tracking-tight mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-900 sm:text-4xl
+sm:leading-none">Write anything and start</p>
+<p class="inline-block font-bold text-3xl tracking-tight mt-0 mr-2 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-900
+sm:text-4xl sm:leading-none">being</p>
+<p class="inline-block font-bold text-3xl tracking-tight mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-blue-700
+sm:text-4xl sm:leading-none">creative</p>
+</div>
+<p class="text-base mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-700 md:text-lg">Lorem ipsum dolor sit amet,
+consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim.</p>
+</div>
+<div class="flex bg-top bg-cover flex-col mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 md:flex-row"><input type="text"
+id="3f9282d3-b8cd-4d35-8def-704e4e18c55b" class="h-12 w-full rounded-md mt-0 mr-0 mb-2 ml-0 pt-3 pr-4 pb-3 pl-4
+text-xs font-normal shadow-sm border-2 bg-white text-white border-gray-300 md:mr-2 focus:border-blue-700
+focus:outline-none focus:shadow-outline flex-grow transition duration-200 appearance-none" placeholder="Email
+Address" style="font-family: Raleway;"></div>
+<div class="flex bg-top bg-cover items-center mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0"><button class="h-12
+rounded-lg mt-0 mr-6 mb-0 ml-0 pt-0 pr-6 pb-0 pl-6 text-medium font-semibold tracking-wide shadow-md inline-flex
+items-center justify-center bg-blue-700 text-white transition duration-200 hover:bg-blue-900 focus:shadow-outline
+focus:outline-none" style="font-family: Arial;">Get Early Access</button><button class="h-12 rounded-lg mt-0 mr-6
+mb-0 ml-0 pt-0 pr-6 pb-0 pl-6 text-medium font-semibold tracking-wide shadow-md inline-flex items-center
+justify-center bg-transparent text-blue-700 transition duration-200 hover:bg-blue-50 focus:shadow-outline
+focus:outline-none" style="font-family: Arial;">Request a Demo</button></div>
+</div>
+</div>
+</div>
+</div>
+<div class="block-container bg-top bg-cover -mt-0 -mr-0 -mb-0 -ml-0 pt-0 pr-0 pb-0 pl-0">
+<div class="bg-white bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<div class="max-w-7xl bg-top bg-cover mt-0 mr-auto mb-0 ml-auto pt-24 pr-4 pb-24 pl-4">
+<p class="md:text-4xl font-bold text-3xl tracking-tight mt-0 mr-0 mb-3 ml-0 pt-0 pr-0 pb-0 pl-0 text-center
+text-gray-900">Trusted by 5200+, built by 8</p>
+<p class="text-lg mt-0 mr-0 mb-16 ml-0 pt-0 pr-0 pb-0 pl-0 text-center text-gray-600">Organizations of all sizes
+trust HelloNext to manage customer feedback</p>
+<div class="grid-cols-2 gap-16 text-center lg:grid-cols-6 grid bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-16
+pl-0">
+<div class="flex bg-top bg-cover justify-center items-center mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0"><img
+src="https://res.cloudinary.com/macxenon/image/upload/v1629297558/001-adobe_q9fyz4.svg" class="h-full h-16 mt-0
+mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 block object-contain" alt="Logo 1"></div>
+<div class="flex bg-top bg-cover justify-center items-center mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0"><img
+src="https://res.cloudinary.com/macxenon/image/upload/v1629297558/002-airbnb_aotwnn.svg" class="h-full h-16 mt-0
+mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 block object-contain" alt="Logo 2"></div>
+<div class="flex bg-top bg-cover justify-center items-center mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0"><img
+src="https://res.cloudinary.com/macxenon/image/upload/v1629297558/003-amd_fhisin.svg" class="h-full h-16 mt-0 mr-0
+mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 block object-contain" alt="Logo 3"></div>
+<div class="flex bg-top bg-cover justify-center items-center mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0"><img
+src="https://res.cloudinary.com/macxenon/image/upload/v1629297560/004-android_a6i0c7.svg" class="h-full h-16 mt-0
+mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 block object-contain" alt="Logo 4"></div>
+<div class="flex bg-top bg-cover justify-center items-center mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0"><img
+src="https://res.cloudinary.com/macxenon/image/upload/v1629297560/007-ati_hhzips.svg" class="h-full h-16 mt-0 mr-0
+mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 block object-contain" alt="Logo 5"></div>
+<div class="flex bg-top bg-cover justify-center items-center mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0"><img
+src="https://res.cloudinary.com/macxenon/image/upload/v1629297560/005-apple_zgdckn.svg" class="h-full h-16 mt-0
+mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 block object-contain" alt="Logo 6"></div>
+</div>
+<div class="text-center bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<div class="bg-gray-200 transition cursor-pointer hover:bg-gray-400 text-gray-900 inline-flex bg-top bg-cover
+justify-center items-center rounded-md mt-0 mr-0 mb-0 ml-0 pt-2 pr-3 pb-2 pl-3">
+<p class="font-semibold text-2xl mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">See our Testimonials</p>
+<p class="items-center justify-center inline-flex text-2xl h-10 mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 w-10"><svg
+viewbox="0 0 20 20" fill="currentColor" class="ml-3"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4
+4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+clip-rule="evenodd"></svg></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block-container bg-white bg-top bg-cover -mt-0 -mr-0 -mb-0 -ml-0 pt-0 pr-0 pb-0 pl-0"></div>
+<div class="block-container bg-top bg-cover -mt-0 -mr-0 -mb-0 -ml-0 pt-0 pr-0 pb-0 pl-0"></div>
+<div class="block-container bg-white bg-top bg-cover -mt-0 -mr-0 -mb-0 -ml-0 pt-0 pr-0 pb-0 pl-0">
+<div class="w-full bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 bg-top bg-cover mt-0 mr-auto mb-0 ml-auto
+pt-16 pr-4 pb-0 pl-4">
+<div class="grid gap-10 row-gap-6 sm:grid-cols-2 lg:grid-cols-4 bg-top bg-cover mt-0 mr-0 mb-8 ml-0 pt-0 pr-0 pb-0
+pl-0">
+<div class="sm:col-span-2 bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="tracking-wide uppercase inline-flex font-bold text-xl mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0
+text-gray-800">Company</p>
+<div class="lg:max-w-sm bg-top bg-cover mt-6 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="text-sm mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-800">Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimh.</p>
+<p class="text-sm mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-800">Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+</div>
+</div>
+<div class="space-y-2 bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="tracking-wide font-bold text-base mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-900">Contacts</p>
+<div class="flex bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="text-2xl mt-0 mr-1 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-800">Phone:</p>
+<p class="transition-colors duration-300 hover:text-deep-purple-800 text-2xl mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0
+pl-0 text-deep-purple-accent-400">090-123-5678</p>
+</div>
+<div class="flex bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="text-2xl mt-0 mr-1 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-800">Email:</p>
+<p class="transition-colors duration-300 hover:text-deep-purple-800 text-2xl mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0
+pl-0 text-deep-purple-accent-400">info@lorem.mail</p>
+</div>
+<div class="flex bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="text-2xl mt-0 mr-1 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-800">Address:</p>
+<p class="transition-colors duration-300 hover:text-deep-purple-800 text-2xl mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0
+pl-0 text-deep-purple-accent-400">312 Lovely Street, LM</p>
+</div>
+</div>
+<div class="bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="tracking-wide font-bold text-base mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-900">Social</p>
+<div class="space-x-3 flex bg-top bg-cover items-center mt-1 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<div class="transition-colors duration-300 hover:text-deep-purple-accent-400 text-gray-500 bg-top bg-cover mt-0
+mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<div><i data-test="fa" class="sc-dmlrTW guKkvw fab fa-twitter h-5 mt-0 mr-2 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0
+text-gray-500 "></i></div>
+</div>
+<div class="transition-colors duration-300 hover:text-deep-purple-accent-400 text-gray-500 bg-top bg-cover mt-0
+mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<div><i data-test="fa" class="sc-dmlrTW guKkvw fab fa-instagram h-5 mt-0 mr-2 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0
+text-gray-500 "></i></div>
+</div>
+<div class="transition-colors duration-300 hover:text-deep-purple-accent-400 text-gray-500 bg-top bg-cover mt-0
+mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<div><i data-test="fa" class="sc-dmlrTW guKkvw fab fa-facebook h-6 mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0
+text-gray-500 "></i></div>
+</div>
+</div>
+<p class="text-sm mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-500">Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+</div>
+</div>
+<div class="border-t lg:flex-row flex bg-top bg-cover flex-col-reverse justify-between mt-0 mr-0 mb-0 ml-0 pt-5 pr-0
+pb-10 pl-0">
+<p class="text-sm mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0 text-gray-600">© Copyright 2020 Lorem Inc. All rights
+reserved.</p>
+<div class="space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row flex bg-top bg-cover flex-col items-center mt-0
+mr-0 mb-3 ml-0 pt-0 pr-0 pb-0 pl-0">
+<div class="bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="transition-colors duration-300 hover:text-deep-purple-accent-400 text-sm mt-0 mr-0 mb-0 ml-0 pt-0 pr-0
+pb-0 pl-0 text-gray-600">FAQ</p>
+</div>
+<div class="bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="transition-colors duration-300 hover:text-deep-purple-accent-400 text-sm mt-0 mr-0 mb-0 ml-0 pt-0 pr-0
+pb-0 pl-0 text-gray-600">Privacy Policy</p>
+</div>
+<div class="bg-top bg-cover mt-0 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-0">
+<p class="transition-colors duration-300 hover:text-deep-purple-accent-400 text-sm mt-0 mr-0 mb-0 ml-0 pt-0 pr-0
+pb-0 pl-0 text-gray-600">Terms &amp; Conditions</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
