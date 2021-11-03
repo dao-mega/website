@@ -16,12 +16,12 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body class="font-sans antialiased bg-yellow-300 text-gray-900 dark:bg-gray-900 dark:text-white">
+    <body class="font-sans antialiased">
         <div class="min-h-screen">
             @include('layouts.navigation')
 
             <!-- Page Heading -->
-            <header class="shadow border-t-2 border-b-2 border-blue-100 mt-5 mb-5">
+            <header class="mt-5 mb-5">
                 <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                     {{ $header }}
                 </div>
