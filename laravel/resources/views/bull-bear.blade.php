@@ -5,6 +5,22 @@
         </h2>--}}
     </x-slot>
 
+    <div class="flex flex-wrap overflow-hidden">
+
+        <div class="w-1/3 overflow-hidden">
+            1
+        </div>
+
+        <div class="w-1/3 overflow-hidden">
+            2
+        </div>
+
+        <div class="w-1/3 overflow-hidden">
+            3
+        </div>
+
+    </div>
+
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="overflow-hidden shadow-sm sm:rounded-lg">
