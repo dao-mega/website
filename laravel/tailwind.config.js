@@ -53,6 +53,7 @@ module.exports = {
                 DEFAULT: '#f59999',
                 dark: '#b87373',
             },
+        },
 
         extend: {
             fontFamily: {
