@@ -1,0 +1,90 @@
+body{
+    font-family: 'Orienta', sans-serif;
+    background-color: #0c0e1a;
+    padding:20px;
+    color:white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:400;
+}
+
+a {
+    color:#ccffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #ffa400;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+}
+
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+}
+
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    width:1000px;
+    height:400px;
+    margin: 50px auto;
+}
+
+.flex-items-2:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.flex-items-2:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: flex-end;
+    order: 0;
+}
+
+.logo {
+    height:52px;
+    width:auto;
+}
+
+.w-500 {
+    width:500px;
+}
